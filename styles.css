@@ -1,0 +1,57 @@
+@font-face {
+  font-family: outfit;
+  src: url(/Users/talal/Documents/HTML/qr-code-component-main/fonts/Outfit-VariableFont_wght.ttf);
+}
+
+* {
+  font-family: outfit;
+  background-color: hsl(212, 45%, 89%);
+}
+
+.container {
+  padding: 1rem;
+  background-color: hsl(0, 0%, 100%);
+  margin: auto;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 19rem;
+  height: 31rem;
+  border-radius: 1rem;
+}
+
+h1,
+p {
+  background-color: hsl(0, 0%, 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+h1 {
+  font-size: x-large;
+  max-width: 18rem;
+}
+
+p {
+  font-size: 15px;
+  color: hsl(216, 15%, 48%);
+  max-width: 15rem;
+}
+
+.container img {
+  width: 19rem;
+  height: 19rem;
+  border-radius: 1rem;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
